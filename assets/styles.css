@@ -4,7 +4,7 @@
     list-style: none; 
     text-decoration:none ; 
     font-family: 'Fira Sans Condensed', sans-serif;
-} 
+}
 #section-1{
     
     height: 100vh;
@@ -32,7 +32,25 @@
     border: 3px solid rgb(0, 174, 255);  
     padding:  15px 25px; 
     border: radius 5px; ; 
-    margin-left: 80px;
-     
-
-}
+    margin-left: 80px;   
+} 
+ .container{ 
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    height: 90%;
+}  
+ .container .left{
+    max-width: 500px;
+ }
+  .container h1{
+    font-size: 5em; 
+    color: #1c0d43;  
+    line-height: 1em;
+  } 
+  .container p{
+    font-size: 1.8em; 
+    color: #9e9aad;
+  }
