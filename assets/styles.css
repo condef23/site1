@@ -10,7 +10,7 @@
     height: 100vh;
     background-image:url(../assets/images/bg.png) ;
     background-size: cover;
-    background-position: center;
+    background-position:bottom;
 }
 #section-1 header{
     display: flex;
@@ -48,9 +48,21 @@
   .container h1{
     font-size: 5em; 
     color: #1c0d43;  
-    line-height: 1em;
+    line-height: 1em; 
+    margin-bottom: 25px;
   } 
   .container p{
     font-size: 1.8em; 
-    color: #9e9aad;
+    color: #9e9aad;  
+    line-height: 1.5em;
+    margin-bottom: 65px ;
+  } 
+  .container a {
+    color: white; 
+    background: #8043fa; 
+    padding:    15px 60px; 
+    border-radius: 5px; 
+  } 
+  .container img{
+    margin-right: 120px;
   }
